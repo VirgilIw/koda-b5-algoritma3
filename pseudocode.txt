@@ -1,0 +1,11 @@
+Declare belanja : number
+BEGIN
+IF (belanja < 5000)
+	OUTPUT("diskon 0%)
+ELSEIF(belanja >= 500.000 dan <= 1juta)
+	OUTPUT("diskon 5%")
+ELSEIF(belanja > 1 juta)
+	OUTPUT("diskon 10%)
+
+ENDIF
+END
