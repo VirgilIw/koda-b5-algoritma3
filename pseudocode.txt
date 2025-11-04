@@ -1,3 +1,5 @@
+Minitask 6 Psdeudocode Diskon Belanja 
+
 DECLARE belanja : number
 DECLARE hasil : string 
 BEGIN
@@ -6,12 +8,11 @@ INPUT(belanja)
 
 IF (belanja < 5000)
 	hasil <- "diskon 0%" 
-	OUTPUT(hasil)
 ELSEIF(belanja >= 500.000 && <= 1juta)
 	hasil <- "diskon 5%"
-	OUTPUT(hasil)
 ELSEIF(belanja > 1 juta)
-	hasil <- "diskon 10%" 
-	OUTPUT(hasil)
+	hasil <- "diskon 10%" 	
 ENDIF
+
+OUTPUT(hasil)
 END
