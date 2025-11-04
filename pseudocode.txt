@@ -1,11 +1,17 @@
-Declare belanja : number
+DECLARE belanja : number
+DECLARE hasil : string 
 BEGIN
-IF (belanja < 5000)
-	OUTPUT("diskon 0%)
-ELSEIF(belanja >= 500.000 dan <= 1juta)
-	OUTPUT("diskon 5%")
-ELSEIF(belanja > 1 juta)
-	OUTPUT("diskon 10%)
 
+INPUT(belanja) 
+
+IF (belanja < 5000)
+	hasil <- "diskon 0%" 
+	OUTPUT(hasil)
+ELSEIF(belanja >= 500.000 && <= 1juta)
+	hasil <- "diskon 5%"
+	OUTPUT(hasil)
+ELSEIF(belanja > 1 juta)
+	hasil <- "diskon 10%" 
+	OUTPUT(hasil)
 ENDIF
 END
