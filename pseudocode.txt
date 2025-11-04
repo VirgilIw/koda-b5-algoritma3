@@ -1,4 +1,4 @@
-Minitask 6 Psdeudocode Diskon Belanja 
+Perhitungan Diskon Belanja 
 
 DECLARE belanja : number
 DECLARE hasil : string 
@@ -15,4 +15,5 @@ ELSEIF(belanja > 1 juta)
 ENDIF
 
 OUTPUT(hasil)
+
 END
